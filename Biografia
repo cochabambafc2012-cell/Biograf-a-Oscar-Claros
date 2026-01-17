@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biografía - Dr. Oscar Claros</title>
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="stylesheet" href="style-biografia.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="nav-container">
+            <div class="logo">
+                <img src="favicon.png" alt="Logo Oscar Claros" class="logo-icon">
+                <span class="orange-text">Dr. Oscar</span><span class="blue-text">Claros</span>
+            </div>
+            
+            <!-- Menú hamburguesa para móvil -->
+            <button class="menu-toggle" id="menuToggle" aria-label="Abrir menú">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            
+            <nav id="mainNav" class="nav-menu">
+                <ul>
+                    <li><a href="index.html">INICIO</a></li>
+                    <li><a href="biografia.html">BIOGRAFÍA</a></li>
+                    <li><a href="#plan">PLAN DE GOBIERNO</a></li>
+                    <li><a href="#servicios">CONCEJALES</a></li>
+                </ul>
+                <a href="#" class="btn-main">ÚNETE AHORA</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Sección de Biografía con foto de perfil -->
+    <section class="bio-hero">
+        <div class="bio-container">
+            <div class="profile-section">
+                <div class="profile-image-container">
+                    <img src="perfil-oscar-claros.jpg" alt="Dr. Oscar Claros" class="profile-image">
+                </div>
+            </div>
+            
+            <div class="bio-content">
+                <h1>Dr. Oscar Claros</h1>
+                <p class="bio-subtitle">Un líder con raíces populares y vocación de servicio</p>
+                
+                <div class="bio-section">
+                    <h2>TRAYECTORIA DE RAÍCES POPULARES</h2>
+                    <p>Oscar Claros fue una figura activa en la política local y nacional durante los años 90: concejal y diputado por Quillacollo, impulsor de iniciativas como la transferencia de los terrenos de la antigua Casa Hosschild a la Universidad Mayor de San Simón, donde hoy funciona la Facultad de Veterinaria y Zootecnia.</p>
+                    <p>Quienes lo conocen recuerdan su origen humilde y su insistencia en que la política debe ser un servicio a la sociedad y no un medio para dividir o enriquecerse.</p>
+                </div>
+
+                <div class="bio-section">
+                    <h2>RENOVADO, PERO CON EXPERIENCIA</h2>
+                    <p>Durante su retiro voluntario, Claros no se apartó del trabajo comunitario ni del sector productivo: se dedicó a la floricultura, la fruticultura, la agricultura intensiva, bienes raíces y la carpintería, además de seguir ejerciendo la abogacía en favor de sectores vulnerables.</p>
+                    <p>Esa experiencia empresarial y social, afirman sus allegados, le dio una mirada práctica sobre las necesidades del campo, el comercio local y la generación de recursos para el municipio.</p>
+                </div>
+
+                <div class="bio-section">
+                    <h2>PROGRAMA Y VOCACIÓN DE SERVICIO</h2>
+                    <p>La campaña que hoy inicia Claros, junto a Alianza Patria, promete obras y políticas integrales en salud, educación, cultura, deporte, medio ambiente y desarrollo productivo.</p>
+                    <p class="quote">"La fuerza de Quillacollo está en su gente, en sus barrios, en quienes trabajan cada día por salir adelante. Hoy esa fuerza se organiza, se levanta y mira al futuro con esperanza y decisión. Porque cuando la gente se une, Quillacollo avanza"</p>
+                    <p class="quote-author">— Dr. Oscar Claros</p>
+                    <p>Vecinos, dirigentes y referentes locales valoraron su retorno como una oportunidad para articular experiencias históricas con propuestas renovadas. La Alianza Patria anunció que en los próximos días Claros encabezará una serie de encuentros distritales para recoger demandas y priorizar proyectos que serán anunciados oficialmente en su plataforma de gobierno.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Galería de fotos -->
+    <section class="gallery-section" id="galeria">
+        <h2>¡El Dr. Claros con su pueblo!</h2>
+        <div class="carousel-container">
+            <button class="carousel-btn prev" aria-label="Anterior">
+                <i class="fas fa-chevron-left"></i>
+            </button>
+            
+            <div class="carousel-track-container">
+                <div class="carousel-track">
+                    <div class="carousel-slide active">
+                        <img src="Foto 1.jpg" alt="Reunión con vecinos">
+                        <p class="slide-description">Reunión con vecinos de la zona norte</p>
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="Foto 2.jpg" alt="Visita a mercado">
+                        <p class="slide-description">Visitando el mercado central</p>
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="Foto 3.jpg" alt="Encuentro ciudadano">
+                        <p class="slide-description">Encuentro ciudadano en la plaza principal</p>
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="galeria/foto4.jpg" alt="Con jóvenes">
+                        <p class="slide-description">Conversando con jóvenes sobre educación</p>
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="galeria/foto5.jpg" alt="Recorrido">
+                        <p class="slide-description">Recorrido por las calles de Quillacollo</p>
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="galeria/foto6.jpg" alt="Evento comunitario">
+                        <p class="slide-description">Evento comunitario en zona sur</p>
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="galeria/foto7.jpg" alt="Con comerciantes">
+                        <p class="slide-description">Diálogo con comerciantes locales</p>
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="galeria/foto8.jpg" alt="Actividad deportiva">
+                        <p class="slide-description">Apoyando el deporte en la comunidad</p>
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="galeria/foto9.jpg" alt="Visita escolar">
+                        <p class="slide-description">Visita a escuela del distrito</p>
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="galeria/foto10.jpg" alt="Campaña">
+                        <p class="slide-description">Campaña puerta a puerta</p>
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="galeria/foto11.jpg" alt="Reunión vecinal">
+                        <p class="slide-description">Reunión con dirigentes vecinales</p>
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="galeria/foto12.jpg" alt="Actividad cultural">
+                        <p class="slide-description">Celebrando nuestra cultura</p>
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="galeria/foto13.jpg" alt="Con adultos mayores">
+                        <p class="slide-description">Escuchando a nuestros adultos mayores</p>
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="galeria/foto14.jpg" alt="Desarrollo urbano">
+                        <p class="slide-description">Planificando el desarrollo urbano</p>
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="galeria/foto15.jpg" alt="Con mujeres">
+                        <p class="slide-description">Encuentro con organizaciones de mujeres</p>
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="galeria/foto16.jpg" alt="Propuestas">
+                        <p class="slide-description">Presentando propuestas a la comunidad</p>
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="galeria/foto17.jpg" alt="Trabajo en equipo">
+                        <p class="slide-description">Trabajo en equipo por Quillacollo</p>
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="galeria/foto18.jpg" alt="Juventud">
+                        <p class="slide-description">Con la juventud de Quillacollo</p>
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="galeria/foto19.jpg" alt="Infraestructura">
+                        <p class="slide-description">Visitando obras de infraestructura</p>
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="galeria/foto20.jpg" alt="Compromiso">
+                        <p class="slide-description">Nuestro compromiso con la gente</p>
+                    </div>
+                </div>
+            </div>
+            
+            <button class="carousel-btn next" aria-label="Siguiente">
+                <i class="fas fa-chevron-right"></i>
+            </button>
+        </div>
+        
+        <div class="carousel-indicators">
+            <!-- Los indicadores se generarán dinámicamente -->
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-col logo-col">
+                <div class="footer-logo">
+                    <span class="orange-text">Oscar</span><span class="blue-text">Claros</span>
+                </div>
+                <p class="footer-slogan">"El Cambio es Ahora"</p>
+            </div>
+            <div class="footer-col">
+                <h4>Navegación Rápida</h4>
+                <ul>
+                    <li><a href="biografia.html">Biografía</a></li>
+                    <li><a href="#plan">Plan de Gobierno</a></li>
+                    <li><a href="#servicios">Concejales</a></li>
+                    <li><a href="#unete">Únete al Equipo</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Contacto y Redes</h4>
+                <p><i class="far fa-envelope"></i> <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="8ae9e5e4feebe9fee5cae5f9e9ebf8e9e6ebf8e5f9a4e9e5e7">[email&#160;protected]</a></p>
+                <p><i class="fas fa-phone"></i> +591 72745677</p>
+                <p><i class="fas fa-map-marker-alt"></i> Av. Blanco Galindo, entre calles Antofagasta y Gral. Camacho. Acer Sud. Quillacollo</p>
+            </div>
+        </div>
+        <div class="copyright">
+            © 2026 Campaña Oscar Claros. Todos los derechos reservados.
+        </div>
+    </footer>
+
+    <!-- WhatsApp flotante -->
+    <a href="https://wa.me/59172745677" class="whatsapp-float" target="_blank" aria-label="Contactar por WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Lightbox Modal -->
+    <div class="lightbox" id="lightbox">
+        <button class="lightbox-close" id="lightboxClose" aria-label="Cerrar">
+            <i class="fas fa-times"></i>
+        </button>
+        <button class="lightbox-prev" id="lightboxPrev" aria-label="Anterior">
+            <i class="fas fa-chevron-left"></i>
+        </button>
+        <div class="lightbox-content">
+            <img src="" alt="" class="lightbox-image" id="lightboxImage">
+            <p class="lightbox-description" id="lightboxDescription"></p>
+        </div>
+        <button class="lightbox-next" id="lightboxNext" aria-label="Siguiente">
+            <i class="fas fa-chevron-right"></i>
+        </button>
+    </div>
+
+    <script>
+        // Menú hamburguesa
+        const menuToggle = document.getElementById('menuToggle');
+        const mainNav = document.getElementById('mainNav');
+        const logo = document.querySelector('.logo');
+        
+        menuToggle.addEventListener('click', function() {
+            this.classList.toggle('active');
+            mainNav.classList.toggle('active');
+            logo.classList.toggle('menu-active');
+            document.body.classList.toggle('menu-open');
+        });
+
+        // Cerrar menú al hacer clic en un enlace
+        const navLinks = mainNav.querySelectorAll('a');
+        navLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                menuToggle.classList.remove('active');
+                mainNav.classList.remove('active');
+                logo.classList.remove('menu-active');
+                document.body.classList.remove('menu-open');
+            });
+        });
+
+        // Cerrar menú al hacer clic en el overlay
+        document.addEventListener('click', (e) => {
+            if (document.body.classList.contains('menu-open')) {
+                const isClickInsideNav = mainNav.contains(e.target);
+                const isClickOnToggle = menuToggle.contains(e.target);
+                const isClickOnLogo = logo.contains(e.target);
+                
+                if (!isClickInsideNav && !isClickOnToggle && !isClickOnLogo) {
+                    menuToggle.classList.remove('active');
+                    mainNav.classList.remove('active');
+                    logo.classList.remove('menu-active');
+                    document.body.classList.remove('menu-open');
+                }
+            }
+        });
+
+        // Carrusel de imágenes
+        const track = document.querySelector('.carousel-track');
+        const slides = Array.from(track.children);
+        const nextButton = document.querySelector('.carousel-btn.next');
+        const prevButton = document.querySelector('.carousel-btn.prev');
+        const indicatorsContainer = document.querySelector('.carousel-indicators');
+
+        // Crear indicadores
+        slides.forEach((_, index) => {
+            const indicator = document.createElement('button');
+            indicator.classList.add('indicator');
+            if (index === 0) indicator.classList.add('active');
+            indicator.setAttribute('aria-label', `Ir a imagen ${index + 1}`);
+            indicator.addEventListener('click', () => {
+                goToSlide(index);
+            });
+            indicatorsContainer.appendChild(indicator);
+        });
+
+        const indicators = Array.from(indicatorsContainer.children);
+        let currentSlide = 0;
+
+        function updateSlides() {
+            slides.forEach((slide, index) => {
+                slide.classList.remove('active');
+                indicators[index].classList.remove('active');
+            });
+            slides[currentSlide].classList.add('active');
+            indicators[currentSlide].classList.add('active');
+            
+            const slideWidth = slides[0].getBoundingClientRect().width;
+            track.style.transform = `translateX(-${currentSlide * slideWidth}px)`;
+        }
+
+        function goToSlide(index) {
+            currentSlide = index;
+            updateSlides();
+        }
+
+        nextButton.addEventListener('click', () => {
+            currentSlide = (currentSlide + 1) % slides.length;
+            updateSlides();
+        });
+
+        prevButton.addEventListener('click', () => {
+            currentSlide = (currentSlide - 1 + slides.length) % slides.length;
+            updateSlides();
+        });
+
+        // Auto-play del carrusel
+        let autoplayInterval = setInterval(() => {
+            currentSlide = (currentSlide + 1) % slides.length;
+            updateSlides();
+        }, 5000);
+
+        // Pausar autoplay cuando el usuario interactúa
+        document.querySelector('.carousel-container').addEventListener('mouseenter', () => {
+            clearInterval(autoplayInterval);
+        });
+
+        document.querySelector('.carousel-container').addEventListener('mouseleave', () => {
+            autoplayInterval = setInterval(() => {
+                currentSlide = (currentSlide + 1) % slides.length;
+                updateSlides();
+            }, 5000);
+        });
+
+        window.addEventListener('resize', updateSlides);
+
+        // LIGHTBOX FUNCTIONALITY
+        const lightbox = document.getElementById('lightbox');
+        const lightboxImage = document.getElementById('lightboxImage');
+        const lightboxDescription = document.getElementById('lightboxDescription');
+        const lightboxClose = document.getElementById('lightboxClose');
+        const lightboxPrev = document.getElementById('lightboxPrev');
+        const lightboxNext = document.getElementById('lightboxNext');
+        let currentLightboxIndex = 0;
+
+        slides.forEach((slide, index) => {
+            const img = slide.querySelector('img');
+            img.addEventListener('click', () => {
+                openLightbox(index);
+            });
+        });
+
+        function openLightbox(index) {
+            currentLightboxIndex = index;
+            updateLightbox();
+            lightbox.classList.add('active');
+            document.body.style.overflow = 'hidden';
+        }
+
+        function closeLightbox() {
+            lightbox.classList.remove('active');
+            document.body.style.overflow = '';
+        }
+
+        function updateLightbox() {
+            const currentSlideElement = slides[currentLightboxIndex];
+            const img = currentSlideElement.querySelector('img');
+            const description = currentSlideElement.querySelector('.slide-description');
+            
+            lightboxImage.src = img.src;
+            lightboxImage.alt = img.alt;
+            lightboxDescription.textContent = description.textContent;
+        }
+
+        lightboxClose.addEventListener('click', closeLightbox);
+
+        lightboxPrev.addEventListener('click', () => {
+            currentLightboxIndex = (currentLightboxIndex - 1 + slides.length) % slides.length;
+            updateLightbox();
+        });
+
+        lightboxNext.addEventListener('click', () => {
+            currentLightboxIndex = (currentLightboxIndex + 1) % slides.length;
+            updateLightbox();
+        });
+
+        lightbox.addEventListener('click', (e) => {
+            if (e.target === lightbox) {
+                closeLightbox();
+            }
+        });
+
+        document.addEventListener('keydown', (e) => {
+            if (!lightbox.classList.contains('active')) return;
+            
+            if (e.key === 'Escape') {
+                closeLightbox();
+            } else if (e.key === 'ArrowLeft') {
+                currentLightboxIndex = (currentLightboxIndex - 1 + slides.length) % slides.length;
+                updateLightbox();
+            } else if (e.key === 'ArrowRight') {
+                currentLightboxIndex = (currentLightboxIndex + 1) % slides.length;
+                updateLightbox();
+            }
+        });
+
+        // Animación suave al scroll
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                const href = this.getAttribute('href');
+                if (href !== '#' && href.length > 1) {
+                    e.preventDefault();
+                    const target = document.querySelector(href);
+                    if (target) {
+                        target.scrollIntoView({
+                            behavior: 'smooth',
+                            block: 'start'
+                        });
+                    }
+                }
+            });
+        });
+    </script>
+</body>
+</html>
